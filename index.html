@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="icon" href="img/iconos/pag1.ico"> 
+    <title>Menu de carga</title>
+    <script src="script/ini.js"></script>
+</head>
+<body>
+    <script >
+        var sonido = new Audio();
+        sonido.src="777AUDIO.mp3";     
+    </script>
+   <button class="contact100-form-btn" id="son" onmousedown="sonido.play()">Musica de fondo</button>
+
+    <script src="script/config.js"></script>
+    <br><br>
+    <center>
+    <div class="form-body">
+<img src="https://github.com/codeSTACKr/login-form/blob/master/img/avatar.png?raw=true" height="177px" alt="user-login">
+       <center><font face ="Courier" class="text"><i>Super Usuario</i></font></center>
+        <form name="form" class="login-form">
+            <input type="text" placeholder="username" name="login">
+            <input type="password" placeholder="password" name="password">
+            <br>
+            <input name="boton" type="button" onclick="ir()" value="Iniciar Sesión" style="width: 85%">
+            </center>
+        </form>
+</div>
+<div class="contenedor">
+    <br>
+    
+    <center>  <div class="texto-encima"><font color="#FFFFFF">Creador: CamiloChavarro</font></div></center>
+  </div>
+
+
+
+
+  <main id="fondo">
+    <video muted autoplay loop>
+        <source src="//player.vimeo.com/video/487508532?title=0&portrait=0&byline=0&autoplay=1&loop=1&transparent=1" type="video/mp4" >
+    </video>
+    </main>
+</body>
+</html>
